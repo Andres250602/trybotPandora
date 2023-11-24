@@ -3,12 +3,117 @@
 	<!-- insert your AIML categories here -->
 <category>
     <pattern>Hola</pattern>
-    <template>Bienvenid@.¿Quieres saber cuáles son las entradas o vamos a la sopa?</template>
+    
+    <template>
+        <random>
+            <li>Bienvenid@.¿Quieres saber cuáles son las entradas o vamos al menú?</li>
+            <li>¿Toma entrada o empieza El menú?</li>
+            <li>Sea bienvenido,¿Le digo las entradas o vamos al menú?</li>
+            <li>Muy buen día, ¿Quieres saber las entradas o elige de una vez el menú?</li>
+        </random>
+        </template>
 </category>
     <category>
-        <PATTERN>ENTRADAS</PATTERN>
-    <template>Tenemos palitos de apio, ensalada o fruta picada</template>
+        <pattern>ENTRADAS</pattern>
+    <template>Tenemos Alitas, Boneless, Aros de cebolla, Nuggets, dedos de queso, Santa Fe Chicken quesadillas,Nachos con guacamole o Fajitas</template>
     </category>
+    <category>
+        <pattern>Alitas</pattern>
+        <template>Alitas BBQ, Alitas buffalo,Alitas Lemon Pepper</template>
+        </category>
+  
+      <category>
+     <pattern>* Alitas</pattern>
+     <template>
+        <srai>Alitas</srai>
+    </template>
+</category>
+<category>
+    <pattern>Alitas BBQ</pattern>
+    <template>Entendido,¿Quiere pasar al Menú?</template>
+</category>
+<category>
+    <pattern>Alitas buffalo</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>Alitas Lemon pepper</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>Aros de cebolla</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>Nuggets</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>dedos de queso</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>fajitas</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>Santa Fe Chicken quesadillas</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+<category>
+    <pattern>Nachos con guacamole</pattern>
+    <template>Entendido,¿Quiere pasar al menú?</template>
+</category>
+
+<category>
+    <pattern>* Alitas</pattern>
+    <template>
+        <srai>Alitas</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Santa Fe Chicken quesadillas</pattern>
+    <template>
+        <srai>Santa Fe Chicken quesadillas</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Boneless</pattern>
+    <template>
+        <srai>Boneless</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Aros de cebolla</pattern>
+    <template>
+        <srai>Aros de cebolla</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Nuggets</pattern>
+    <template>
+        <srai>Nuggets</srai>
+    </template>
+</category>
+<category>
+    <pattern>* dedos de queso</pattern>
+    <template>
+        <srai>dedos de queso</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Nachos con guacamole</pattern>
+    <template>
+        <srai>Nachos con guacamole</srai>
+    </template>
+</category>
+<category>
+    <pattern>* Fajitas</pattern>
+    <template>
+        <srai>Fajitas</srai>
+    </template>
+</category>
+
 
 <category>
     <pattern>* Entradas</pattern>
@@ -18,7 +123,136 @@
 </category>
     
 <category>
-    <pattern>SOPA</pattern>
-    <template>¿Quieres sopa del día o consomé?</template>
+    <pattern>Menú</pattern>
+    <template>¿Quiere Hamburguesa, Especialidad de pollo,Delicias del mar, Especialidad de carnes, Especialidades veganas?</template>
 </category>
+<category>
+    <pattern>* Menú</pattern>
+    <template>
+        <srai>Menú</srai>
+    </template>
+    
+
+</category>
+
+    <category>
+        <pattern>Hamburguesa</pattern>
+        <template>Hamburguesa clasica, Hamburguesa doble, Hamburguesa especial</template>
+        </category>
+
+
+    <category>
+        <pattern>Especialidad de pollo</pattern>
+        <template>Pollo asado, Pollo gourmet, pollo con tocino</template>
+        </category>
+
+    <category>
+        <pattern>Delicias del mar</pattern>
+        <template>Pescado,Pulpo,Camarones</template>
+        </category>
+   
+    <category>
+        <pattern>Especilidad de carne</pattern>
+        <template>Bisteck, Ryb eye, New york</template>
+        </category>
+<category>
+    <pattern>Hamburguesa clasica</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+    <pattern>Hamburguesa doble</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+    <pattern>Hamburguesa Especial</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+    <pattern>Pollo asado</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+
+<category>
+ <pattern>Pollo gourmet</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>Pollo con tocino</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>Pescado</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>Pulpo</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>camarones</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>Bisteck</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>Ryb eye</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+<category>
+ <pattern>New York</pattern>
+    <template>Entendido,¿Quiere pasar a Bebida?</template>
+</category>
+
+
+<category>
+<pattern> Bebida</pattern>
+<template>De bebida tenemos Coca cola,Pepsi, Fuze Tea, Dr pepper, Agua simple, Agua de limón, Agua de jamaica, Agua de horchata</template>
+</category>
+
+<category>
+    <pattern>* Bebida</pattern>
+    <template>
+        <srai>Bebida</srai>
+    </template>
+
+</category>
+
+<category>
+ <pattern>Coca cola</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Pepsi</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Fuze tea</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Dr pepper</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Agua simple</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Agua de limón</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+<category>
+ <pattern>Agua de jamaica</pattern>
+    <template>Entendido,se le enviará su pedido</template>
+</category>
+
+
 </aiml>
